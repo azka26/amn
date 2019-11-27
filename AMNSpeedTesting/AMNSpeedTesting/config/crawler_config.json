@@ -1,0 +1,16 @@
+{
+  "BaseURL": "http://localhost",
+  "UserName": "sugeng",
+  "Password": "test",
+  "LoginPage": "pcs/Login/LogOn",
+  "TestPageLoadTimeCount": 6,
+  "ExceptionList": [
+    "/Download/",
+    "/Res/",
+    "text/javascript",
+    "text/css",
+    "text/javascript",
+    "multipart/form",
+    "."
+  ]
+}
