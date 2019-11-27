@@ -24,7 +24,7 @@ namespace AMNSpeedTesting
 
                 Console.WriteLine("Start Crawler");
                 String patternOut = String.Format("{0:yyyyMMddHHmmss}", DateTime.Now);
-                String path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, $"output_{patternOut}.csv");
+                String path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, $"output_{t.UserName}_{patternOut}.csv");
                 if (File.Exists(path))
                 {
                     File.Delete(path);
